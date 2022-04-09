@@ -1,17 +1,24 @@
+@import url("https://fonts.googleapis.com/css?family=Sulphur+Point&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500&display=swap");
 .main {
-  width: 90%;
+  width: 95%;
   padding: 0px 10px;
   margin: 0px auto;
   margin-top: 4rem;
 }
 
 .greet-main {
+  font-family: "Sulphur Point", sans-serif;
   max-width: 1370px;
-  padding: 10px 10px;
+  padding: 10px 2px;
   margin: 0px auto;
+  /* margin: auto 10rem; */
   margin-top: 2rem;
   display: block;
 }
+/* .greeting-text-div{
+  padding: 0rem 0rem;
+} */
 
 .greeting-main {
   display: flex;
@@ -32,7 +39,8 @@
   margin-top: 110px;
   font-size: 70px;
   line-height: 5px;
-  font-family: "Google Sans Bold";
+  letter-spacing: 3px;
+  /* font-family: "Google Sans Bold"; */
 }
 
 .greeting-nickname {
@@ -40,19 +48,29 @@
   line-height: 0px;
   font-family: "Google Sans Bold Italic";
 }
-
+.myName {
+  font-family: "Sulphur Point", sans-serif;
+  letter-spacing: 2.5px;
+  /* font-style: italic; */
+  font-size: 1.5rem;
+}
 .greeting-text-p {
-  font-size: 30px;
-  line-height: 40px;
-  margin-right: 40px;
-  font-family: "Google Sans Medium";
+  font-size: 1.5rem;
+  /* font-weight: 400; */
+  line-height: 33px;
+  margin-right: 30px;
+  font-family: "Ubuntu", sans-serif;
+  /* letter-spacing: 0.5px; */
 }
 
 .greeting-image-div > * {
   max-width: 100%;
   height: auto;
 }
-
+.secondarytext {
+  padding-right: 190px;
+  /* padding-left: 210px; */
+}
 .button {
   text-decoration: none;
   color: rgba(255, 255, 255, 1);

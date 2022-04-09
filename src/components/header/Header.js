@@ -64,11 +64,11 @@ function Header(props) {
 
   return (
     <Fade top duration={1000} distance="20px">
-      <div>
+      <div className="nav">
         <header className="header">
           <NavLink to={link} tag={Link} className="logo">
             <span style={{ color: theme.text }}></span>
-            <span className="logo-name" style={{ color: theme.text }}>
+            <span className="logo-name" style={{ color: theme.logoColor }}>
               {greeting.logo_name}
             </span>
             <span style={{ color: theme.text }}></span>
@@ -97,7 +97,7 @@ function Header(props) {
                 activeStyle={{ fontWeight: "bold" }}
                 style={{ borderRadius: 5, color: theme.text }}
               >
-                Education and Certifications
+                Skills & Certifications
               </NavLink>
             </li>
             <li>
@@ -130,19 +130,8 @@ function Header(props) {
                 activeStyle={{ fontWeight: "bold" }}
                 style={{ borderRadius: 5, color: theme.text }}
               >
-                Contact and Resume
+                Contact & Resume
               </NavLink>
-            </li>
-            <li>
-              <a
-                className="cr"
-                href="https://play.google.com/store/apps/details?id=com.picle.journalify"
-                tag={Link}
-                activeStyle={{ fontWeight: "bold" }}
-                style={{ borderRadius: 5, color: theme.text }}
-              >
-                Journalify
-              </a>
             </li>
             <button {...styles} onClick={changeTheme}>
               {icon}

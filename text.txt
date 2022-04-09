@@ -1,0 +1,16 @@
+Machine Learning & Deep Learnning
+
+Python
+Jupyter
+NumPy
+SciPy
+Pandas
+Matplotlib
+Scikit Learn
+Keras
+TensorFlow
+Pytorch
+
+
+
+    

@@ -13,8 +13,14 @@ function GetSkillSvg(props) {
     return <DataScienceImg theme={props.theme} />;
   else if (props.fileName === "FullStackImg")
     return <FullStackImg theme={props.theme} />;
-  else if (props.fileName === "CloudInfraImg")
-    return <CloudInfraImg theme={props.theme} />;
+  else if (props.fileName === "BlockchainImg")
+    return (
+      <img
+        alt="Man Working"
+        src={require("../../assests/images/Dapp1.jpeg")}
+        theme={props.theme}
+      />
+    );
   // return <DesignImg theme={props.theme} />;
 }
 
@@ -28,6 +34,10 @@ function SkillSection(props) {
             <div className="skills-main-div">
               <Fade left duration={2000}>
                 <div className="skills-image-div">
+                  {/* <img
+                        alt="Man Working"
+                        src={require("../../assests/images/portfolio.png")} 
+                    ></img> */}
                   <GetSkillSvg fileName={skill.fileName} theme={theme} />
                 </div>
               </Fade>
