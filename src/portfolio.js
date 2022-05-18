@@ -742,7 +742,7 @@ const experience = {
 const projectsHeader = {
   title: "Projects",
   description:
-    "My projects makes use of vast variety of latest technology tools. My best experience is to create Data Science projects. Below are some of my projects. Note that not all of the mentioned projects are on GitHub yet.",
+    "My projects makes use of vast variety of latest technology tools. My best experience is to create Full Stack Web apps. I also have worked on Deep Learining and Web3 Blockchain projects. Below are some of my projects. Note that not all of the mentioned projects are on GitHub yet.",
   avatar_image_path: "projects_image.svg",
 };
 
@@ -788,10 +788,10 @@ const projects = {
           name: "NodeJS",
           iconifyClass: "logos-nodejs",
         },
-        // {
-        //   name: "Express",
-        //   iconifyClass: "logos-express",
-        // },
+        {
+          name: "Express",
+          iconifyClass: "logos-express",
+        },
         {
           name: "MongoDB",
           iconifyClass: "logos-mongodb",
@@ -802,8 +802,30 @@ const projects = {
         },
       ],
     },
+
     {
       id: "1",
+      name: "ER Patient Tracking System ",
+      url: " ",
+      description:
+        "Digitalises patient record keeping. Tracks the whole patient treatment duration with time stamps to optimize/reduce delay for all actions taken",
+      languages: [
+        {
+          name: "JavaScript",
+          iconifyClass: "logos-java",
+        },
+        {
+          name: "Python",
+          iconifyClass: "logos-python",
+        },
+        {
+          name: "Firebase",
+          iconifyClass: "logos-firebase",
+        },
+      ],
+    },
+    {
+      id: "2",
       name: "Neo-Portfolio",
       url: " ",
       description: "(This) A clean and full customizable portfolio template.",
@@ -818,28 +840,6 @@ const projects = {
         },
       ],
     },
-
-    // {
-    //   id: "2",
-    //   name: "Demo project 2",
-    //   url: " ",
-    //   description:
-    //     "Published on Play Store back in 2017, crossed 55K downloads. Performed object detection, image captioning, OCR, handwritten OCR, barcode and QR code scanning with product information.",
-    //   languages: [
-    //     {
-    //       name: "JavaScript",
-    //       iconifyClass: "logos-java",
-    //     },
-    //     {
-    //       name: "Python",
-    //       iconifyClass: "logos-python",
-    //     },
-    //     {
-    //       name: "Firebase",
-    //       iconifyClass: "logos-firebase",
-    //     },
-    //   ],
-    // },
     // {
     //   id: "12",
     //   name: "Demo project 3",

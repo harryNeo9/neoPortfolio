@@ -17,7 +17,7 @@ function GetSkillSvg(props) {
     return (
       <img
         alt="Man Working"
-        src={require("../../assests/images/Dapp1.jpeg")}
+        src={require("../../assests/images/Dapp1.png")}
         theme={props.theme}
       />
     );
